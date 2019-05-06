@@ -1,0 +1,7 @@
+peewee
+
+requests
+
+flask
+
+scrapy
