@@ -5,7 +5,7 @@
 
 通过抓取微信文章和今日头条新闻，仿照今日头条，打造一个自己的今日头条
 
-![](images/toutiao.png)
+![](images/toutiao.PNG)
 
 
 ## 基本思路
@@ -41,7 +41,7 @@ static/images
 
 ## 启动运行
 ```
-git clone https://github.com/mouday/today-news.git
+git clone git@github.com:mymikasa/toutiao.git
 cd toutiao
 pip install -r requirement.txt
 python run.py
