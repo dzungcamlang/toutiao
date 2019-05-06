@@ -1,5 +1,5 @@
 
-# Today News
+# toutiao
 
 ## 项目简介
 
@@ -42,7 +42,7 @@ static/images
 ## 启动运行
 ```
 git clone https://github.com/mouday/today-news.git
-cd today-news
+cd toutiao
 pip install -r requirement.txt
 python run.py
 
@@ -67,7 +67,7 @@ item = {
 
 ```
 
-将解析好的`item` 调用函数存入数据库
+
 ```python
 from models import ArticleModelUtils
 
@@ -76,5 +76,4 @@ ArticleModelUtils.insert(item)
 
 这样前台就可以显示了
 
-当然，如果有好的新闻源，可以提交到这个仓库，6小时之内会给出答复
 
